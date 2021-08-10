@@ -22,10 +22,23 @@ public class PrimeiroPrograma {
 		int b = 3;
 		System.out.println("Hello World!" + (a+b));*/
 	}
+}
 	
 	class Livro {
 		private String nome;
 		private String npag;
+		public String getNome() {
+			return nome;
+		}
+		public void setNome(String nome) {
+			this.nome = nome;
+		}
+		public String getNpag() {
+			return npag;
+		}
+		public void setNpag(String npag) {
+			this.npag = npag;
+		}
 	}
 
-}
+
